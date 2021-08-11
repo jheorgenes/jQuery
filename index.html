@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Introdução a jQuery</title>
+</head>
+<body>
+
+    <h1>Teste</h1>
+    <button class="btn btn-danger" id="exemplo">Volta</button>
+
+    <script src="jquery.js"></script>
+    <script>
+        //$("#exemplo").click(function(){
+        //   alert("Foi");
+        //});
+
+        
+        //Depois de carregado todos os elementos do dom
+        //$(document).ready(function(){
+        //    alert('Dom carregado!!!');
+        //});
+
+        //Depois de carregado todos os elementos da página
+        $(window).load(function(){
+            alert('Todos os elementos da página foram carregados!!!');
+        });
+
+    </script>  
+</body>
+</html>
